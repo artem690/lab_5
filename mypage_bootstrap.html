@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <title>About Me</title>
+      </head>
+      <body>
+        <div class="container"> <!--Step 2 not sure-->
+          <h1>Nekrasov Artem</h1><small class="text-muted">- software development and tools</small>
+          <div class="card">
+            <div class="card-footer">
+              I am from Russia. I have lived in Denver for seven years already. I have played hockey for about 14 years, however, I had to stop unfortunately because of some injuries.
+              I decided to study computer science because I always found computers interesting, and I want to learn how to be a developer.
+            </div>
+          </div>
+          <h2>My Professional Profile</h2>
+          <div class="buttons">
+            <a href="https://github.com/artem690" target="_blank" type="button" class="btn btn-outline-secondary" name="button" >Artem's Github</a>
+          </div>
+          <br>
+          <img src="pic.jpg" class="rounded-circle" alt="Image cannot be displayed" width="500" height="600">
+          <h3>My Favorite Projects</h3>
+          <br>
+          <table class=table>
+            <tr>
+              <th>#</th><th>Name of the Project</th><th>Technologies Used</th>
+            </tr>
+            <tr>
+              <td>1</td><td>Avengers Trivia Maze</td><td>C++/graph</td>
+            </tr>
+              <td>2</td><td>Oregon Trail Game</td><td>C++</td>
+            <tr>
+              <td>3</td><td>CampusConnect</td><td>HTML/CSS/SQL/NODE.js</td>
+            </tr>
+          </table>
+
+          <br>
+          <!--Emmet is an atom package for HTML auto-formatting-->
+          <div class="row">
+            <div class="col">
+              <div class="accordian">
+                <div class="card">
+                  <div class="card-header">
+                    <button type="button" class="btn" data-toggle="collapse" data-target="#demo">Countries Travelled</button>
+                  </div>
+                  <div id="demo" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Spain</li>
+                      <li class="list-group-item">Gernamy</li>
+                      <li class="list-group-item">Italy</li>
+                      <li class="list-group-item">United Arab Emirates</li>
+                      <li class="list-group-item">Turkey</li>
+                      <li class="list-group-item">Bulgaria</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="accordian">
+                <div class="card">
+                  <div class="card-header">
+                    <button type="button" class="btn" data-toggle="collapse" data-target="#interests">My Interests</button>
+                  </div>
+                  <div id="interests" class="collapse">
+                    <ol class="list-group list-group-flush">
+                      <li class="list-group-item">Sports</li>
+                      <li class="list-group-item">Cars</li>
+                      <li class="list-group-item">Computer Science</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-target="#myModal">Click Me</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>This is a alert and you have to break your computer or it will explode</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+          </div>
+      </body>
+    </html>
